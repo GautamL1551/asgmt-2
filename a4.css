@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url('vr-game-colors-bakground-wallpaper-generated-ai_1164464-72.jpg');
+    display: flex;
+    align-items: flex-end;
+}
+
+.register-box{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 30vh;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.register-box h1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: darkblue;
+}
+
+.register-box p{
+    margin-top: 0px;
+    color: black;
+    font-size: large;
+    align-items: left;
+}
+
+.buttons-container{
+    height: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.buttons-container button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    border: solid black 1px;
+    cursor: pointer;
+    width: 130px;
+}
+
+.buttons-container button:nth-child(1){
+    background-color: darkblue;
+    color: white;
+}
+
+.buttons-container button:nth-child(2){
+    background-color: white;  
+}
+

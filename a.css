@@ -1,0 +1,37 @@
+body{
+    background-image: url('wp7130410.jpg');
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(41, 43, 46);
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.chatbox-reply{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgb(31, 156, 234);
+    font-family: sans-serif;
+    color: white;
+    padding: 15px;
+    border-radius: 5px 5px 0 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.chatbox-receive{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(87, 92, 95);
+    font-family: sans-serif;
+    color: white;
+    padding: 15px;
+    border-radius: 5px 5px 5px 0;
+    margin: 5px;
+    margin-bottom: 20px;
+}

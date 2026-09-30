@@ -1,0 +1,22 @@
+body{
+    background-image: url('wp4694288.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square-box{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    color: white;
+    font-size: 45px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid rgb(6, 213, 6);
+    background-color: rgba(0, 0, 0, 0.528);
+}

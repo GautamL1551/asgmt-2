@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    background-image: url('breakfast-consisting-croissants-coffee-fruits-orange-juice-jam-balanced-diet-84302987.webp');
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.book-box{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(252, 168, 0);
+    border-radius: 10px 10px 0 0;
+    padding: 3px 10px 10px 20px;
+}
+
+.book-box h1 {
+    color: rgb(19, 8, 27);
+    margin-bottom: 5px;
+}
+    
+.book-box h3 {
+    color: rgb(19, 8, 27);
+    margin-top: 0px;
+}
+
+.book-button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 130px;
+    font-size:small;
+}
+
+.book-button:hover{
+    background-color: rgb(243, 237, 237);
+}
